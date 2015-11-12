@@ -27,6 +27,28 @@ public class LobbyController : NetworkManager {
 	
 	void Start () {
 
+		//URI Issue solver
+		
+		//_lobby.matchMaker.baseUri = null;
+		
+		Debug.Log("Base MM Uri: " + matchMaker.baseUri);
+		
+		if (matchMaker.baseUri == null){
+			
+			System.Uri _uri = new System.Uri(System.Uri.EscapeUriString("https://mm.unet.unity3d.com/"));
+			matchMaker.baseUri = _uri;
+		}else{
+			if (matchMaker.baseUri.ToString() == "")
+			{
+				System.Uri _uri = new System.Uri(System.Uri.EscapeUriString("https://mm.unet.unity3d.com/"));
+				matchMaker.baseUri = _uri;
+			}
+		}
+		
+		Debug.Log("NEW Base MM Uri: " + matchMaker.baseUri);
+		
+		//END
+
 	}
 
 	void Update () {

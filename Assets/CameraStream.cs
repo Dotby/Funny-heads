@@ -30,6 +30,14 @@ public class CameraStream : MonoBehaviour {
 		}
 		
 		mCamera = new WebCamTexture ();
+
+		if (Application.platform == RuntimePlatform.IPhonePlayer){
+
+			Vector3 _old = plane.transform.localScale;
+
+			plane.transform.localScale = new Vector3(-1.0f * _old.x, -1.0f * _old.y, 1);
+		}
+
 		plane.GetComponent<Renderer>().material.mainTexture = mCamera;
 		mCamera.Play ();
 		

@@ -8,12 +8,12 @@ public class CardboardController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-#if UNITY_EDITOR_WIN
-		Debug.Log("Cardboard OFF");
-		gameObject.SetActive(false);
-		_cam.SetActive(true);
-		return;
-#endif
+//#if UNITY_EDITOR_WIN
+//		Debug.Log("Cardboard OFF");
+//		gameObject.SetActive(false);
+//		_cam.SetActive(true);
+//		return;
+//#endif
 
 		Cardboard.SDK.OnTrigger += RecenterCardboard;
 	}
