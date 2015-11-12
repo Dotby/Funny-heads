@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{6203C2E7-BDA8-58E0-021E-1A3C3B0C7FC8}") = "Funny heads VR", "Assembly-CSharp.csproj", "{FBE70B1D-B5F2-572A-2565-4D1AAA1811A9}"
+EndProject
+Project("{6203C2E7-BDA8-58E0-021E-1A3C3B0C7FC8}") = "Funny heads VR", "Assembly-CSharp-Editor.csproj", "{ADADDC97-5240-9F29-A353-98FE58D1F2F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBE70B1D-B5F2-572A-2565-4D1AAA1811A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBE70B1D-B5F2-572A-2565-4D1AAA1811A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBE70B1D-B5F2-572A-2565-4D1AAA1811A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBE70B1D-B5F2-572A-2565-4D1AAA1811A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADADDC97-5240-9F29-A353-98FE58D1F2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADADDC97-5240-9F29-A353-98FE58D1F2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADADDC97-5240-9F29-A353-98FE58D1F2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADADDC97-5240-9F29-A353-98FE58D1F2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+																																																					GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal

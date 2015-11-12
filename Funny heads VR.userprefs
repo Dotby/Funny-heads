@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayerHeadController.cs">
+    <Files>
+      <File FileName="Assets\CardboardController.cs" Line="14" Column="9" />
+      <File FileName="Assets\LobbyController.cs" Line="24" Column="20" />
+      <File FileName="Assets\ClientEngine.cs" Line="104" Column="2" />
+      <File FileName="Assets\ServerEngine.cs" Line="26" Column="5" />
+      <File FileName="Assets\PlayerHeadController.cs" Line="15" Column="50" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

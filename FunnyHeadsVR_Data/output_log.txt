@@ -1,0 +1,83 @@
+Initialize engine version: 5.2.2f1 (3757309da7e7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     896 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Павел\Documents\GitHub\Funny heads VR\FunnyHeadsVR_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Павел\Documents\GitHub\Funny heads VR\FunnyHeadsVR_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Павел\Documents\GitHub\Funny heads VR\FunnyHeadsVR_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Павел\Documents\GitHub\Funny heads VR\FunnyHeadsVR_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Павел\Documents\GitHub\Funny heads VR\FunnyHeadsVR_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Павел\Documents\GitHub\Funny heads VR\FunnyHeadsVR_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Павел\Documents\GitHub\Funny heads VR\FunnyHeadsVR_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Павел\Documents\GitHub\Funny heads VR\FunnyHeadsVR_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Павел\Documents\GitHub\Funny heads VR\FunnyHeadsVR_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.159 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Павел\Documents\GitHub\Funny heads VR\FunnyHeadsVR_Data\Managed\System.dll (this message is harmless)
+InvalidOperationException: Unsupported device.
+  at BaseVRDevice.GetDevice () [0x00000] in <filename unknown>:0 
+  at Cardboard.InitDevice () [0x00000] in <filename unknown>:0 
+  at Cardboard.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.OnDisable () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.OnApplicationPause (Boolean pause) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Cardboard.OnApplicationFocus (Boolean focus) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Cardboard OFF
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 864c -> priority: 1 
+MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+JSON Response: [[UnityEngine.Networking.Match.ListMatchResponse]-success:True-extendedInfo:]-matches.Count:1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+MatchMakingClient Join :https://mm.unet.unity3d.com/json/reply/JoinMatchRequest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+JSON Response: [[UnityEngine.Networking.Match.JoinMatchResponse]-success:True-extendedInfo:]-address:52.28.24.148,port:9999,networkId:0x00100000000154D3,nodeId:0x9B5E,usingRelay:True
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Join match succeeded
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Start local player.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Hi im head.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
+Hi im head.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 64)
+
