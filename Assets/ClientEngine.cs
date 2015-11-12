@@ -74,6 +74,28 @@ public class ClientEngine : NetworkBehaviour {
 				return;
 			}
 
+			//URI Issue solver
+			
+			//_lobby.matchMaker.baseUri = null;
+			
+			Debug.Log("Base MM Uri: " + _lobby.matchMaker.baseUri);
+			
+			if (_lobby.matchMaker.baseUri == null){
+				
+				System.Uri _uri = new System.Uri(System.Uri.EscapeUriString("https://mm.unet.unity3d.com/"));
+				_lobby.matchMaker.baseUri = _uri;
+			}else{
+				if (_lobby.matchMaker.baseUri.ToString() == "")
+				{
+					System.Uri _uri = new System.Uri(System.Uri.EscapeUriString("https://mm.unet.unity3d.com/"));
+					_lobby.matchMaker.baseUri = _uri;
+				}
+			}
+			
+			Debug.Log("NEW Base MM Uri: " + _lobby.matchMaker.baseUri);
+			
+			//END
+
 			MatchInfo matchInfo = new MatchInfo(matchJoin);
 			Utility.SetAccessTokenForNetwork(matchJoin.networkId, new NetworkAccessToken(matchJoin.accessTokenString));
 			_client = new NetworkClient();
