@@ -32,6 +32,7 @@ public class ServerEngine : NetworkBehaviour {
 	public void Init() {
 
 		Debug.Log("Create host..");
+		Debug.Log("Base MM Uri: " + _lobby.matchMaker.baseUri);
 
 		if (!_lobby._localTest)
 		{
@@ -41,7 +42,7 @@ public class ServerEngine : NetworkBehaviour {
 			create.advertise = true;
 			create.password = "";
 			
-			_lobby.networkMatch.CreateMatch(create, OnMatchCreate);
+			_lobby.matchMaker.CreateMatch(create, OnMatchCreate);
 		}
 		else{
 			NetworkManager.singleton.StartServer();

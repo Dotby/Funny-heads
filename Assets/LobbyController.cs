@@ -14,7 +14,7 @@ public class LobbyController : NetworkManager {
 
 	List<MatchDesc> matchList = new List<MatchDesc>();
 
-	public NetworkMatch networkMatch;
+	//public NetworkMatch networkMatch;
 	public bool matchCreated;
 
 
@@ -22,7 +22,7 @@ public class LobbyController : NetworkManager {
 	void Awake()
 	{
 		singleton = this;
-		networkMatch = gameObject.AddComponent<NetworkMatch>();
+		base.matchMaker = gameObject.AddComponent<NetworkMatch>();
 	}
 	
 	void Start () {

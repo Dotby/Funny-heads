@@ -24,7 +24,7 @@ public class ClientEngine : NetworkBehaviour {
 	void Init(){
 
 		if (!_lobby._localTest){
-			_lobby.networkMatch.ListMatches(0, 20, "", OnMatchList);
+			_lobby.matchMaker.ListMatches(0, 20, "", OnMatchList);
 		}else{
 			NetworkManager.singleton.StartClient();
 		}
@@ -59,7 +59,7 @@ public class ClientEngine : NetworkBehaviour {
 	{
 		if (matchListResponse.success && matchListResponse.matches != null)
 		{
-			_lobby.networkMatch.JoinMatch(matchListResponse.matches[0].networkId, "", OnMatchJoined);
+			_lobby.matchMaker.JoinMatch(matchListResponse.matches[0].networkId, "", OnMatchJoined);
 		}
 	}
 
